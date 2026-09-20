@@ -1,0 +1,33 @@
+{
+    "version": "1.0.0",
+    "description": "Aether - your personal AI, living on your desktop",
+    "homepage": "https://github.com/vansh7266/aether-releases",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/vansh7266/aether-releases/releases/download/v1.0.0/aether-1.0.0-windows-x64.zip",
+            "hash": "cd2b09aabbc9757894b361e4e1abee21cd86a94a74493c53e273ffe4e9fe999e",
+            "extract_dir": "aether"
+        }
+    },
+    "bin": [
+        [
+            "aether-bin.exe",
+            "aether"
+        ]
+    ],
+    "notes": [
+        "First time:  aether setup     (asks for your Sarvam API key)",
+        "Then:        aether start     and press Ctrl+Shift+Space"
+    ],
+    "checkver": {
+        "github": "https://github.com/vansh7266/aether-releases"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/vansh7266/aether-releases/releases/download/v$version/aether-$version-windows-x64.zip"
+            }
+        }
+    }
+}
