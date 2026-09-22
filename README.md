@@ -31,5 +31,22 @@ aether start
 
 Then press **Ctrl+Shift+Space**.
 
-Update: `scoop update; scoop update aether` - Uninstall: `aether uninstall`, then `scoop uninstall aether`.
+**Update**
+
+```powershell
+scoop update; scoop update aether
+```
+
+**Remove Aether completely** (the app, its memory, logs, settings and the API key in Credential Manager)
+
+```powershell
+aether uninstall
+```
+
+Answer `y`, then `y` again, then type `DELETE`. Then:
+
+```powershell
+scoop uninstall aether
+scoop bucket rm aether
+```
 Downloads come from [aether-releases](https://github.com/vansh7266/aether-releases).
