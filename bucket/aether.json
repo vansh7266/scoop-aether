@@ -1,12 +1,12 @@
 {
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Aether - your personal AI, living on your desktop",
     "homepage": "https://github.com/vansh7266/aether-releases",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/vansh7266/aether-releases/releases/download/v1.0.2/aether-1.0.2-windows-x64.zip",
-            "hash": "cfc7434a3fb131bea79deb37d2c130e3f4062b641cb72dc341d6e50f5c29c4fd",
+            "url": "https://github.com/vansh7266/aether-releases/releases/download/v1.0.3/aether-1.0.3-windows-x64.zip",
+            "hash": "b1680e3d71637d8bbe25b27010209d1b8294c5001c1ad64dc968117ae40c0106",
             "extract_dir": "aether"
         }
     },
